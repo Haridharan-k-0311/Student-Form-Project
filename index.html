@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>STUDENT FORM</h1>
+
+    <div class="table-box">
+        <form id="studentForm">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+            
+                <tr>
+                    <th>Age</th>
+                    <td><input type="number" id="Age" required></td>
+                </tr>
+            
+                <tr>
+                    <th>Gender</th>
+                    <td class="radio-input">
+                        <!--
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                        -->
+                        <select id="gender" required>
+                            <option class="center" value="">--Choose One--</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Transsexual Male">Transsexual Male</option>
+                            <option value="Transsexual Female">Transsexual Female</option>
+                            <option value="Metrosexual Male">Metrosexual Male</option>
+                            <option value="Metrosexual Female">Metrosexual Female</option>
+                            <option value="Male, But Curious What Being a Female is Like">Male, But Curious What Being a Female is Like</option>
+                            <option value="Female, But Curious What Being a Male is Like">Female, But Curious What Being a Male is Like</option>
+                            <option value="Male, But Overweight, So have Moobs">Male, But Overweight, So have Moobs</option>
+                            <option value="Female, But Have an Adam's Apple">Female, But Have an Adam's Apple</option>
+                            <option value="Hermaphrodite with Predominant Male Leanings">Hermaphrodite with Predominant Male Leanings</option>
+                            <option value="Hermaphrodite with Predominant FEmale Leanings">Hermaphrodite with Predominant Female Leanings</option>
+                            <option value="Hermaphrodite with No Strong Gender Leanings">Hermaphrodite with No Strong Gender Leanings</option>
+                            <option value="Conjoined Twin - Male">Conjoined Twin - Male</option>
+                            <option value="Conjoined Twin - Female">Conjoined Twin - Female</option>
+                            <option value="Born Without Genitals - Identify as Male">Born Without Genitals - Identify as Male</option>
+                            <option value="Born Without Genitals - Identify as Female">Born Without Genitals - Identify as Female</option>
+                            <option value="Born Without Genitals - Proud of it">Born Without Genitals - Proud of it</option>
+                            <option value="Born a Male, Bad Circumcision. Raised Female">Born a Male, Bad Circumcision. Raised Female</option>
+                            <option value="WOMYN, thank-you very much! > &nbsp;&nbsp;&nbsp;&nbsp; :-)">WOMYN, thank-you very much! > &nbsp;&nbsp;&nbsp;&nbsp; :-)</option>
+                            <option value="An Angel From the Movie Dogma">An Angel From the Movie Dogma</option>
+                            <option value="A Mortal Angel (Fell in Love with Mortal Women)">A Mortal Angel (Fell in Love with Mortal Women)</option>
+                            <option value="Sentient Artifical Intelligence With No Gender">Sentient Artifical Intelligence With No Gender</option>
+                            <option value="Sentient Artifical Intelligence - Identifies as Male">Sentient Artifical Intelligence - Identifies as Male</option>
+                            <option value="Sentient Artifical Intelligence - Identifies as Female">Sentient Artifical Intelligence - Identifies as Female</option>
+                            <option value="Household Pet That Walked Across the Keyboard - Male">Household Pet That Walked Across the Keyboard - Male</option>
+                            <option value="Household Pet That Walked Across the Keyboard - Female">Household Pet That Walked Across the Keyboard - Female</option>
+                            <option value="Household Pet That Walked Across the Keyboard - Other">Household Pet That Walked Across the Keyboard - Other</option>
+                            <option value="Other">Other</option>
+                            <option value="None">None</option>
+                            <option value="Prefer Not to Say">Prefer Not to Say</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>Course</th>
+                    <td>
+                        <select id="course" required>
+                            <option class="center" value="">Select Course</option>
+                            <option value="Python">Python</option>
+                            <option value="Html">Html</option>
+                            <option value="Css">Css</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Database">Database</option>
+                            <option value="Machine Learning">Machine Learning</option>
+                            <option value="AI">AI</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="Blockchain">Blockchain</option>
+                            <option value="Cybersecurity">Cybersecurity</option>
+                            <option value="Ethical Hacking">Ethical Hacking</option>
+                            <option value="Web Development">Web Development</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="save">
+                        <button type="submit" class="save-btn">Save</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table id="studentTable" class="data-table">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>COURSE</th>
+                    <th>GENDER</th>
+                    <th>EMAIL</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
