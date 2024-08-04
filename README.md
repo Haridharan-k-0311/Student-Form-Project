@@ -22,6 +22,19 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/Student-Form-Project.git
 
+cd Student-Form-Project
 
 
 Feel free to modify any sections as needed, such as the installation instructions or technologies used, based on your project's specifics. Let me know if you need any more help!
+
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. For major changes, please open an issue to discuss what you'd like to add or modify.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+Special thanks to GitHub Pages for hosting this project and making it easy to share with others.
+
+Contact
+If you have any questions or feedback, please reach out to me at harih6812@yahoo.com
